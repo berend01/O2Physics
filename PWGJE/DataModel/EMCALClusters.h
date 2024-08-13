@@ -58,7 +58,7 @@ const EMCALClusterDefinition getClusterDefinitionFromString(const std::string& c
     return kV3Variation3;
   } else {
     throw std::invalid_argument("Cluster definition name not recognized");
-  }  
+  }
 };
 
 DECLARE_SOA_INDEX_COLUMN(Collision, collision);                        //! collisionID used as index for matched clusters
